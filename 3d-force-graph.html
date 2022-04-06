@@ -150,7 +150,7 @@
     let linkDic = {};
 
     let query = "MATCH (p:Programme)-[progCourse]-(pc:Course)<-[prq:PREREQUISITE]-(c:Course)" +
-        "RETURN c, pc, prq"
+        "RETURN c, pc, prq "
 
     createForceGraph();
 
